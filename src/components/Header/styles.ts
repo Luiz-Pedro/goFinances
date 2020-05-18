@@ -34,3 +34,16 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 `;
+
+export const MenusUl = styled.ul`
+  display: flex;
+  list-style: none;
+
+  li + li {
+    margin-left: 32px;
+  }
+
+  a {
+    padding: 0.8em;
+  }
+`;
